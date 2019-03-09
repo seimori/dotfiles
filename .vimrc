@@ -1,3 +1,4 @@
+set nomodeline
 source /usr/share/vim/vimrc
 runtime ftplugin/man.vim
 syntax on
@@ -10,7 +11,6 @@ set clipboard=unnamed
 set autochdir
 set visualbell
 set nocompatible
-set nomodeline
 set mouse=a
 colorscheme slate
 

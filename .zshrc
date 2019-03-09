@@ -35,6 +35,8 @@
 	alias val='valgrind --leak-check=yes ./a.out'
 	alias 42fc='bash ~/42FileChecker/42FileChecker.sh'
 	alias mysgoinfre='cd /sgoinfre/goinfre/Perso/imorimot'
+	alias newmakefile='cp ~/Ressources/Makefile_template/Makefile .'
+	alias newlibft='cp -r ~/Ressources/libft .'
 	
 #   Exports
     export EDITOR=/usr/bin/vim
