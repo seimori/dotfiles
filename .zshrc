@@ -33,10 +33,11 @@
 	alias gpl='git pull'
 	alias ao='./a.out'
 	alias val='valgrind --leak-check=yes ./a.out'
-	alias 42fc='bash ~/42FileChecker/42FileChecker.sh'
+	alias 42fc='bash ~/Ressources/42FileChecker/42FileChecker.sh'
 	alias mysgoinfre='cd /sgoinfre/goinfre/Perso/imorimot'
 	alias newmakefile='cp ~/Ressources/Makefile_template/Makefile .'
-	alias newlibft='cp -r ~/Ressources/libft .'
+	alias newlibft='cp -r ~/Ressources/libft .; rm -rf libft/.git'
+	alias tc='cd ~/Test_chamber'
 	
 #   Exports
     export EDITOR=/usr/bin/vim

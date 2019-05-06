@@ -12,6 +12,7 @@ set autochdir
 set visualbell
 set nocompatible
 set mouse=a
+set ruler
 colorscheme slate
 
 "   Eliminate clutter files
