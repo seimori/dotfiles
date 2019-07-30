@@ -40,8 +40,10 @@ colorscheme slate
 "   endfunction
 
 "   Macros
-    let @c = ':tabf ~/.vimrc'
-	let @s = ':source ~/.vimrc'
+    let @c = ':tabf ~/.vimrc
+'
+	let @s = ':source ~/.vimrc
+'
 
 "   Status line   
 "   hi User1 ctermbg=blue ctermfg=black guibg=blue guifg=black
@@ -59,7 +61,6 @@ colorscheme slate
 
     call plug#begin()
 
-    Plug 'wakatime/vim-wakatime'
     Plug 'tpope/vim-obsession'
     Plug 'pbondoer/vim-42header'
 	Plug 'christoomey/vim-tmux-navigator'
