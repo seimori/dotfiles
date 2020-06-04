@@ -33,27 +33,29 @@
 	alias gpl='git pull'
 	alias ao='./a.out'
 	alias val='valgrind --leak-check=yes ./a.out'
-	alias 42fc='bash ~/Ressources/42FileChecker/42FileChecker.sh'
+	alias 42fc='bash ~/Resources/42FileChecker/42FileChecker.sh'
 	alias mysgoinfre='cd /sgoinfre/goinfre/Perso/imorimot'
-	alias newmakefile='cp ~/Ressources/Makefile_template/Makefile .'
-	alias newlibft='cp -r ~/Ressources/libft .; rm -rf libft/.git'
+	alias newmakefile='cp ~/Resources/Makefile_template/Makefile .'
+	alias newlibft='cp -r ~/Resources/libft .; rm -rf libft/.git'
 	alias tc='cd ~/Test_chamber'
+    alias norminette='~/.norminette/norminette.rb'
 	
 #   Exports
     export EDITOR=/usr/bin/vim
     export VISUAL=/usr/bin/vim
 	export PATH=$HOME/.brew/bin:$PATH
 	#export VIMRUNTIME=/usr/share/vim/vim80
+	export DISPLAY=:0
 	
 #   Auto start tmux
-   if [[ "$TERM" != "screen" ]] &&
-           [[ "$SSH_CONNECTION" == "" ]]; then
-   # Attempt to discover a detached session and
-   # it, else create a new session
-   WHOAMI=$(whoami)
-   if tmux has-session -t $WHOAMI 2>/dev/null; then
-       tmux -2 attach-session -t $WHOAMI
-   else
-       tmux -2 new-session -s $WHOAMI
-   fi
-   fi
+#    if [[ "$TERM" != "screen" ]] &&
+#            [[ "$SSH_CONNECTION" == "" ]]; then
+#    # Attempt to discover a detached session and
+#    # it, else create a new session
+#    WHOAMI=$(whoami)
+#    if tmux has-session -t $WHOAMI 2>/dev/null; then
+#        tmux -2 attach-session -t $WHOAMI
+#    else
+#        tmux -2 new-session -s $WHOAMI
+#    fi
+#    fi
