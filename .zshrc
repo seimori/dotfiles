@@ -19,12 +19,12 @@
 
 #   Aliases
 	alias vs='vim -S Session.vim'
-    alias cz='vim ~/.zshrc'
-    alias sz='source ~/.zshrc'
-    alias cv='vim ~/.vimrc'
-    alias ct='vim ~/.tmux.conf'
-    alias op='wsl-open'
-    alias gd='cd /mnt/c/Users/issei/Desktop'
+	alias cz='vim ~/.zshrc'
+	alias sz='source ~/.zshrc'
+	alias cv='vim ~/.vimrc'
+	alias ct='vim ~/.tmux.conf'
+	alias op='wsl-open'
+	alias gd='cd /mnt/c/Users/issei/Desktop'
 	alias cc='gcc -g -Wall -Wextra -Werror'
 	alias nrm='norminette'
 	alias ga='git add'
@@ -38,7 +38,8 @@
 	alias newmakefile='cp ~/Resources/Makefile_template/Makefile .'
 	alias newlibft='cp -r ~/Resources/libft .; rm -rf libft/.git'
 	alias tc='cd ~/Test_chamber'
-    alias norminette='~/.norminette/norminette.rb'
+  alias norminette='~/.norminette/norminette.rb'
+	alias npmchrome='BROWSER=chrome npm start'
 	
 #   Exports
     export EDITOR=/usr/bin/vim
