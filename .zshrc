@@ -4,6 +4,7 @@
 #   Format the vcs_info_msg_0_ variable
     zstyle ':vcs_info:git:*' formats '%F{4}%b%f'
 
+
 #   Prompt
     setopt PROMPT_SUBST
     PS1='%F{blue}%*%f %~ %F{red}$%f '
@@ -39,15 +40,14 @@
 	alias newlibft='cp -r ~/Resources/libft .; rm -rf libft/.git'
 	alias tc='cd ~/Test_chamber'
   alias norminette='~/.norminette/norminette.rb'
-	alias npmchrome='BROWSER=chrome npm start'
+	alias yarnc='BROWSER=chrome yarn start'
 	
 #   Exports
     export EDITOR=/usr/bin/vim
     export VISUAL=/usr/bin/vim
-	export PATH=$HOME/.brew/bin:$PATH
 	#export VIMRUNTIME=/usr/share/vim/vim80
-	export DISPLAY=:0
 	
+    export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 #   Auto start tmux
 #    if [[ "$TERM" != "screen" ]] &&
 #            [[ "$SSH_CONNECTION" == "" ]]; then
